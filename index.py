@@ -41,8 +41,8 @@ countDownPositives()
 
 # Set three variables: lowNum, highNum, mult. Starting at lowNum and going through highNum, print only the integers that are a multiple of mult. For example, if lowNum=2, highNum=9, and mult=3, the loop should print 3, 6, 9 (on successive lines)
 
-def getMultiples(lowNum, highNum, mult):
-    for i in range(lowNum, highNum+1):
+def getMultiples(low_num, high_num, mult):
+    for i in range(low_num, high_num+1):
         if i % mult == 0:
             print(i)
 
